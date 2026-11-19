@@ -1,4 +1,4 @@
-﻿For your Day-03-Notes.md, here are the most common C# data types:
+﻿
 
 # Day 03 - Data Types
 
