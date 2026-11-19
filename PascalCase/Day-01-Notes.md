@@ -11,12 +11,47 @@
 | Comments | Notes for developers that are ignored by the compiler. |
 | Output Formatting | Arranging output neatly using spaces, lines, and text layout. |
 
+---
+
 ## Memory Trick
 
+```text
 Namespace
-↓
+    ↓
 Class
-↓
+    ↓
 Main Method
-↓
+    ↓
 Statements
+
+## Simple Example
+
+```csharp
+using System;
+
+namespace PascalCase
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World");
+        }
+    }
+}
+```
+
+### Breakdown
+
+```text
+Namespace  → PascalCase
+Class      → Program
+Main Method → Starting point of the application
+Statement  → Console.WriteLine("Hello World");
+```
+
+### Output
+
+```text
+Hello World
+```
