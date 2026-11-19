@@ -1,8 +1,6 @@
 ﻿//Console Basic
 using System;
-using System.Reflection;
-using System.Security.Cryptography;
-using System.Xml.Linq;
+
 namespace PascalCase
 {
     class Program
@@ -715,6 +713,7 @@ namespace PascalCase
             Console.WriteLine($"Height       : {height}\n");
             Console.WriteLine($"First Letter : {firstLetter}\n");
             Console.WriteLine($"Working      : {isWorking}\n");
+      
 
             // OutPut
 
@@ -755,6 +754,189 @@ namespace PascalCase
 
             // Is this Yes/No?
             // -> bool
+
+
+
+            //Day 4 - Operators ➕➖✖️➗
+
+            //Operator = Symbol used to perform an operation.
+
+            //Exercise 1 - Addition
+
+            //Create:
+
+            //number1 = 10
+            //number2 = 20
+
+            int number1 = 10;
+            int number2 = 20;
+
+            int AdditionResult = number1 + number2;
+
+            Console.WriteLine("=====================");
+            Console.WriteLine("ADDITION");
+            Console.WriteLine();
+
+            Console.WriteLine("Number 1 : " + number1);
+            Console.WriteLine();
+
+            Console.WriteLine("Number 2 : " + number2);
+            Console.WriteLine();
+
+            Console.WriteLine("Result : " + AdditionResult);
+ 
+
+            //OutPut
+
+            //ADDITION
+
+            //Number 1 : 10
+            //Number 2 : 20
+
+            //Result: 30
+
+
+            //Exercise 2 - Subtraction
+
+            //Create:
+
+            //Subnum1 = 50
+            //Subnum2 = 15
+
+            int subtractionNumber1 = 50;
+            int subtractionNumber2 = 15;
+
+            int SubtractionResult = subtractionNumber1 - subtractionNumber2;
+
+            Console.WriteLine("=================================");
+            Console.WriteLine("SUBTRACTION");
+            Console.WriteLine();
+
+            Console.WriteLine("Result : " + SubtractionResult);
+            Console.WriteLine("==================================");
+
+            //OutPut
+
+            //SUBTRACTION
+
+            //Result : 35
+
+            //Exercise 3 - Multiplication
+
+            //Create : 
+
+            //Mulnum1 = 10
+            //Mulnum2 = 5
+
+            int Mulnum1 = 10;
+            int Mulnum2 = 5;
+
+            int MultiplicationResult = Mulnum1 * Mulnum2;
+
+            Console.WriteLine("MULTIPLICATION");
+            Console.WriteLine();
+
+            Console.WriteLine("Result : " + MultiplicationResult);
+            Console.WriteLine("===============================");
+
+            //OutPut
+
+            // MULTIPLICATION
+
+            //Result : 50
+
+
+            //Exercise 4 - Division
+
+            //Create:
+
+            //number1 = 100
+            //number2 = 10
+
+            int Divnum1 = 100;
+            int Divnum2 = 10;
+
+            int DivisionResult = Divnum1 / Divnum2;
+
+            Console.WriteLine("DIVISION");
+            Console.WriteLine();
+
+            Console.WriteLine("Result : " + DivisionResult);
+            Console.WriteLine("===============================");
+
+            //Output:
+
+            //DIVISION
+
+            //Result : 10
+
+
+            // Exercise 5 - Remainder
+
+            // Create:
+
+
+            //number1 = 11
+            //number2 = 2
+
+
+            int Renum1 = 11;
+            int Renum2 = 2;
+
+            int RemainderResult = Renum1 % Renum2;
+
+            Console.WriteLine("REMAINDER");
+            Console.WriteLine();
+
+            Console.WriteLine("Result : " + RemainderResult);
+            Console.WriteLine("=============================");
+
+            //Output:
+
+
+            //REMAINDER
+
+            //Result : 1
+
+            //Exercise 6 - Student Marks
+
+            //Create:
+
+            //Maths = 80
+            //Science = 90
+            //English = 70
+
+
+            int MathNum = 80;
+            int SciNum = 90;
+            int EngNum = 70;
+
+            int Total = MathNum + SciNum + EngNum;
+
+            Console.WriteLine("TOTAL MARKS");
+            Console.WriteLine();
+
+            Console.WriteLine("Maths : " +MathNum);
+            Console.WriteLine();
+
+            Console.WriteLine("Science : " + SciNum);
+            Console.WriteLine();
+
+            Console.WriteLine("English : " + EngNum);
+            Console.WriteLine();
+
+            Console.WriteLine("Total : " + Total);
+            Console.WriteLine("=====================================");
+
+            //Output:
+
+            //TOTAL MARKS
+
+            //Maths: 80
+            //Science: 90
+            //English: 70
+
+            //Total: 240
 
 
         }
